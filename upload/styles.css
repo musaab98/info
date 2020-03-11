@@ -1,0 +1,260 @@
+  body {
+	font-family: "Lato", sans-serif;
+	margin: 0px;
+	/* background-color: aliceblue; */
+  }
+  
+  .container {
+	display: grid;
+	grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 38px;
+  }
+  
+  .left-side {
+	display: flex;
+	/* background: greenyellow; */
+  }
+  
+  .nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+  }
+  
+  .nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.25s;
+  }
+  
+  .active-nav-link {
+	border-bottom: 1px solid #550000;
+  }
+  
+  .active-nav-link a {
+	color: #550000 !important;
+  }
+  
+  .nav-link-wrapper a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.25s;
+  }
+  
+  .nav-link-wrapper:hover {
+	border-bottom: 1px solid #550000;
+  }
+  
+  .nav-link-wrapper a:hover {
+	color: #550000;
+  }
+
+  .right-side > .name {
+	color: #550000;
+  }
+  
+  .content-wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows:minmax(100px, auto);
+	margin: 2em;
+  }
+  .content-wrapper > .heading {
+	font-size: 30px;
+	font-weight: bold;
+	justify-self: center;
+	/* color: teal; */
+	color: darkred;
+  }
+
+  .content-wrapper > .inspirational {
+	justify-self: center;
+  }
+
+  .home-body {
+	  display: grid;
+	  grid-template-columns: 1fr 2fr;
+	  /* background-color: gray; */
+  }
+
+  .inspirational {
+	  /* background-color: greenyellow; */
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  justify-self: center;
+	  justify-content: center;
+	  align-self: center;
+  }
+
+  .caption {
+	  font-size: 10pt;
+	  color: #550000;
+	  justify-self: center;
+  }
+
+  .inspirational img {
+	width: auto;
+	/* transform: translate(50%, 30%); */
+  }
+
+  .inspirational div {
+	  line-height: 24pt;
+	  justify-self: center;
+  }
+
+  .main-text {
+	justify-self: center;
+	align-self: flex-start;
+	font-size: 16pt;
+	margin: 50pt;
+	line-height: 30pt;
+  }
+
+  .bottom {
+	display: flex;
+	margin: 40px;
+	align-self: end;
+	justify-content: space-between;
+	color: #550000;
+  }
+  
+  .about-body {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	/* background-color: gray; */
+}
+
+  .pfp {
+	  display: grid;
+	  margin: 5em;
+	  margin-top: 0em;
+	  grid-template-columns: 1fr;
+	  /* background-color: gray; */
+  }
+
+  .pfp img {
+	  width: 100%;
+	  /* transform: translate(30%, 0%); */
+  }
+
+  .skills {
+	/* justify-self: center; */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	font-size: 16pt;
+	margin: 50pt;
+	line-height: 30pt;
+	/* background-color: gray; */
+	grid-column: 1/3;
+  }
+
+  .skills > .skills-heading {
+	  font-weight: bold;
+	  color: #550000;
+	  grid-column: 1/4;
+	  justify-self: center;
+	  /* background-color: azure; */
+	  margin-bottom: 2em;
+  }
+
+  .sub-skills {
+	  justify-self: start;
+	  margin-top: 10pt;
+	  margin-left: 10pt;
+	  font-size: 14pt;
+	  color: #550000;
+  }
+
+  .programming-languages {
+	  justify-self: start;
+  }
+  .other-skills {
+	  justify-self: start;
+  }
+  .software-experience {
+	  justify-self: start;
+  }
+
+
+  .projects-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+  }
+  
+  .projects-item-wrapper {
+	position: relative;
+  }
+  
+  .projects-img-background {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 100%;
+  }
+  
+  .img-text-wrapper {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+  }
+  
+  .img-text-wrapper .subtitle {
+	transition: 0.5s;
+	color: transparent;
+  }
+  
+  .image-blur {
+	transition: 0.5s;
+	filter: brightness(10%);
+  }
+  
+  .img-text-wrapper:hover .subtitle {
+	color: red;
+	font-weight: 600;
+  }
+  
+  .logo-wrapper img {
+	width: 250pt;
+	/* width: 100%; */
+	margin-bottom: 20pt;
+  }
+  
+  .two-column-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile-image-wrapper img {
+	width: 100%;
+  }
+  
+  .profile-content-wrapper {
+	padding: 30px;
+  }
+  
+  .profile-content-wrapper h1 {
+	color: lightseagreen;
+  }
+  
+
+
+
+
+
+
