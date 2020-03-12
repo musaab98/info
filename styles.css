@@ -108,7 +108,7 @@
   }
 
   .main-text {
-	justify-self: center;
+	justify-self: start;
 	align-self: flex-start;
 	font-size: 16pt;
 	margin: 50pt;
