@@ -114,6 +114,39 @@
 	margin: 50pt;
 	line-height: 30pt;
   }
+  .main-text a {
+	color: #550000;
+  }
+
+  .contact-me-wrapper {
+	justify-self: start;
+	display: flex;
+	text-decoration: none;
+  }
+  .contact-me {
+	/* grid-column: 1/3; */
+	cursor: pointer;
+	background: none;
+	background-color: #fff0f5 solid transparent;
+	transition: background-color 0.5s;
+	margin-right: 10%;
+	font-size: 12pt;
+	padding: 26px;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	border: 1px solid #550000;
+	border-radius: 6%;
+  }
+  .contact-me:hover {
+	background-color: #fff0f5;
+  }
+  .contact-me a {
+	text-decoration: none;
+	color: #550000;
+  }
+  .contact-me:focus {
+	  outline: none;
+  }
 
   .bottom {
 	display: flex;
