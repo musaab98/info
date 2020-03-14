@@ -292,18 +292,26 @@
 	grid-template-columns: 1fr 1fr;
   }
   
-  .profile-image-wrapper img {
-	width: 100%;
+  .college-wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-self: center;
   }
-  
-  .profile-content-wrapper {
-	padding: 30px;
+  .college {
+	justify-self: center;
+	display: flex;
+	padding: 40px;
   }
-  
-  .profile-content-wrapper h1 {
-	color: lightseagreen;
+  .college > .vt-logo {
+	width: 256px;
+	height: 110px;
   }
-  
+  .college > .gmu-logo {
+	width: 256px;
+  }
+  .college > .description {
+	margin-left: 50px;
+  }
 
 
 
