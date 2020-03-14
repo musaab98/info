@@ -200,21 +200,36 @@
   }
 
   .sub-skills {
-	  justify-self: start;
-	  margin-top: 10pt;
-	  margin-left: 10pt;
-	  font-size: 14pt;
-	  color: #550000;
+	justify-self: start;
+	margin-top: 10pt;
+	margin-left: 10pt;
+	font-size: 14pt;
+	color: #550000;
   }
 
-  .programming-languages {
-	  justify-self: start;
+  .socials {
+	display: flex;
+	justify-self: start;
+	align-self: flex-start;
+	font-size: 14pt;
+	margin: 50pt;
+	margin-top: 15pt;
+	line-height: 24pt;
   }
-  .other-skills {
-	  justify-self: start;
+
+  .socials b {
+	margin-top: 10pt;
   }
-  .software-experience {
-	  justify-self: start;
+  .socials a {
+	margin-left: 30pt;
+	align-self: center;
+	/* background-color: lightgreen; */
+  }
+
+  .socials > a > .icon {
+	width: 32px;
+	align-self: center;
+	/* margin-right: 20px;; */
   }
 
 
