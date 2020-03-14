@@ -112,7 +112,9 @@
 	align-self: flex-start;
 	font-size: 16pt;
 	margin: 50pt;
+	margin-top: 15pt;
 	line-height: 30pt;
+	/* background-color: lightgreen; */
   }
   .main-text a {
 	color: #550000;
@@ -135,6 +137,7 @@
 	padding-bottom: 16px;
 	padding-top: 16px;
 	border: 1px solid #550000;
+	color: #550000;
 	border-radius: 6%;
   }
   .contact-me:hover {
@@ -158,16 +161,16 @@
   
   .about-body {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 2fr;
 	/* background-color: gray; */
 }
 
   .pfp {
 	  display: grid;
-	  margin: 5em;
+	  margin: 20%;
 	  margin-top: 0em;
 	  grid-template-columns: 1fr;
-	  /* background-color: gray; */
+	  /* background-color: lightcoral; */
   }
 
   .pfp img {
@@ -181,8 +184,9 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	font-size: 16pt;
 	margin: 50pt;
+	margin-top: 0;
 	line-height: 30pt;
-	/* background-color: gray; */
+	/* background-color: azure; */
 	grid-column: 1/3;
   }
 
