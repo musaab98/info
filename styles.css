@@ -153,10 +153,11 @@
 
   .bottom {
 	display: flex;
-	margin: 40px;
+	padding: 40px;
 	align-self: end;
 	justify-content: space-between;
 	color: #550000;
+	background-color: lightgray;
   }
   
   .about-body {
@@ -311,6 +312,17 @@
   }
   .college > .description {
 	margin-left: 50px;
+	align-self: center;
+	justify-self: end;
+  }
+
+  .coursework-wrapper {
+	justify-self: start;
+	align-self: flex-start;
+	font-size: 16pt;
+	margin: 50pt;
+	margin-top: 15pt;
+	line-height: 30pt;
   }
 
 
